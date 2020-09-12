@@ -26,6 +26,7 @@ input {
 	border-radius: 10rem;
 	font-weight: bold;
 	font-size: inherit;
+	padding: 0 .2rem;
 }
 
 li {

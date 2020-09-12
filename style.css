@@ -1,6 +1,8 @@
 html {
 	box-sizing: border-box;
 	font-size: 3vw;
+	color: #F6F6F6;
+	font-family: sans-serif;
 }
 
 body {
@@ -8,9 +10,6 @@ body {
 
 }
 
-h1 {
-	color: #F02448;
-}
 
 button {
 	background-color: #7A5A60;
@@ -29,9 +28,6 @@ input {
 	padding: 0 .4rem;
 }
 
-li {
-	color: #F02448;	
-}
 
 
 .done {

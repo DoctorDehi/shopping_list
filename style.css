@@ -1,3 +1,49 @@
+html {
+	box-sizing: border-box;
+	font-size: 3vw;
+}
+
+body {
+	background-color: #9F3548;
+
+}
+
+h1 {
+	color: #F02448;
+}
+
+button {
+	background-color: #7A5A60;
+	color: #F6F6F6;
+	border-radius: 20rem;
+	padding: .5rem 1rem;
+	font-size: inherit;
+}
+
+input {
+	background-color: #7A5A60;
+	color: #F6F6F6;
+	border-radius: 10rem;
+	font-weight: bold;
+	font-size: inherit;
+}
+
+li {
+	color: #F02448;	
+}
+
+
 .done {
 	text-decoration: line-through;
+}
+
+.del-but {
+	border: 0.1rem solid black;
+	border-radius: 10rem;
+	padding: .4rem;
+	margin-left: 1.5rem;
+	display: inline-block;
+	width: .5rem;
+	background-color: #7A5A60;
+	
 }

@@ -33,9 +33,10 @@ function deleteItem(event) {
 }
 
 function createDelButton() {
-	var del_button = document.createElement("button");
+	var del_button = document.createElement('img');
+	del_button.src="img/del.png"
 	del_button.id =  "del_" + input.value;
-	del_button.innerHTML = "Delete";
+	del_button.classList.add("del-but");
 	del_button.addEventListener("click", deleteItem);
 	return del_button;
 }
